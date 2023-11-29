@@ -13,7 +13,7 @@ export default function Home() {
         <p className={styles.desc}>
           Share Knowledge to everyone.
         </p>
-        <Button url="/portfolio" text="Comming...."/>
+        <Button url="/dashboard/login" text="Sing In to Post Your Blog"/>
       </div>
       <div className={styles.item}>
         <Image src={Hero} alt="" className={styles.img} />
